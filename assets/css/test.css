@@ -1,0 +1,139 @@
+.bg {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+.bg:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    background: rgba(7, 28, 46, 0.774); 
+} 
+
+.box {
+    border: 10px solid;
+    border-color: aliceblue;
+    padding: 60px
+}
+
+.teks-info {
+    font-size: 22px
+}
+
+.btn-start {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.material-card{
+    position: relative;
+    bottom: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+  }
+.material-card .content{
+    padding: 30px
+}
+
+.pt-no {
+    font-weight: 600;
+    font-size: 25px;
+} 
+.pt-pertanyaan {
+    font-size: 20px;
+    line-height: 120%;
+} 
+.pt-jawaban { 
+    font-size: 20px;
+}
+
+.box-waktu { 
+    background-color: #ffc10781;
+    padding: 15px;
+    border-radius: 9px;
+}
+.box-waktu p {
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 100%
+}
+
+
+.box-no { 
+    background-color: rgba(33, 149, 243, 0.39);
+    padding: 15px; 
+}
+.box-no-pertanyaan {
+    font-size: 20px;
+    background-color: #64646481;
+    padding: 8px;    
+}
+
+.box-keterangan { 
+    background-color: rgba(33, 149, 243, 0.39);
+    padding: 15px; 
+}
+.box-keterangan .table{  
+    border: none;
+}
+
+/* STYLING RADIO BUTTON  */
+/* The container-radio */
+.container-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} 
+/* Hide the browser's default radio button */
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+} 
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+} 
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+    background-color: #ccc;
+} 
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+} 
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+} 
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked ~ .checkmark:after {
+    display: block;
+} 
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}

@@ -1,0 +1,31 @@
+.berita-lainnya {
+    padding-bottom: 10px;
+
+}
+a.link-berita {
+    font-size: 20px;
+    line-height: 80%;  
+}
+a.link-berita:hover {
+    font-size: 20px;
+    color: #0D47A1;
+    text-decoration: none;
+}
+
+.berita-detail { 
+  background: linear-gradient(to bottom right,  rgba(33, 149, 243, 0.774), rgb(38, 102, 197));
+}
+.berita-judul { 
+    line-height: 105%; 
+    padding-bottom: 10px
+}
+.berita-isi img {
+    width:100%;
+    padding-bottom: 13px
+}
+
+.berita-isi {
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+    letter-spacing: 0.7px;
+}
