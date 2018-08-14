@@ -133,9 +133,20 @@ h1.title-with-line {
 .dropdown-item.sign-out:hover {
     background-color: rgb(211, 108, 108);
 }
-.dropdown-menu {
+.dropdown-menu.user {
     padding: 0.0rem 0;
     min-width: 20rem;
+}
+
+.nav-item.dropdown .dropdown-menu {   
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(225, 240, 252);
+    padding: 0; 
+}
+.nav-item.dropdown .dropdown-menu .dropdown-item {    
+    padding-top: 13px; 
+    padding-bottom: 13px; 
 }
 
 /* Smaller than standard 960 (devices and browsers) */

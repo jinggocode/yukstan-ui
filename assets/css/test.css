@@ -77,11 +77,11 @@
     padding: 15px; 
 }
 .box-keterangan .table{  
-    border: none; 
-    background-color: rgb(126, 194, 250);
+    border: none;  
 }
-.box-keterangan .table tr td{   
+.box-keterangan .table tbody tr td{   
     border: none;
+    background-color: rgb(126, 194, 250);
 }
 
 /* STYLING RADIO BUTTON  */
