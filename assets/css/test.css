@@ -77,6 +77,10 @@
     padding: 15px; 
 }
 .box-keterangan .table{  
+    border: none; 
+    background-color: rgb(126, 194, 250);
+}
+.box-keterangan .table tr td{   
     border: none;
 }
 

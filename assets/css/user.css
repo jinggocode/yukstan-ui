@@ -107,4 +107,12 @@
      box-shadow: 4px 8px 20px grey;
     
     text-decoration: none;
-  }
+}
+ 
+.dropdown-menu .mx-2 a { 
+    border: none;
+    background: linear-gradient(to bottom right, #00aeef, #59c3e9);
+}
+.dropdown-menu .mx-2 a:hover {   
+    background: linear-gradient(to bottom right, rgba(0, 175, 239, 0.774), #59c3e9be);
+}
